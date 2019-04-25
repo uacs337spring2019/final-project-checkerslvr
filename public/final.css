@@ -1,0 +1,121 @@
+/*
+    Laan Rose
+    CSC 337
+    Final Project
+
+    Style sheet file for final.html.
+*/
+
+body {
+    background: skyblue;
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#restartbtn {
+    background-color: white;
+    font-size: 32px;
+}
+
+#contentdiv {
+    display: flex;
+    margin: auto;
+    width: 900px;
+}
+
+#boarddiv {
+    background-color: #DDDDDD;
+    box-shadow: 8px 8px 4px #666666;
+    height: 600px;
+    margin: 10px;
+    position: relative;
+    width: 600px;
+}
+
+#scorediv {
+    background-color: #DDDDDD;
+    box-shadow: 8px 8px 4px #666666;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+#scorelbl {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0px;
+    text-align: center;
+}
+
+#innerscorediv {
+    display: flex;
+    justify-content: space-around;
+}
+
+#redscorelbl {
+    color: red;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+#blackscorelbl {
+    color: black;
+    float: right;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+#restartdiv {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+
+#iodiv {
+    margin: 10px;
+    padding: 10px;
+}
+
+#savebtn {
+    background-color: white;
+    font-size: 32px;
+}
+
+#loadbtn {
+    background-color: white;
+    float: right;
+    font-size: 32px;
+}
+
+#instrdiv {
+    background-color: #DDDDDD;
+    box-shadow: 8px 8px 4px #666666;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+#instrlbl1 {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0px;
+    text-align: center;
+}
+
+#instrlbl2 {
+    font-size: 16px;
+    padding: 0px;
+}
+
+.boardspace {
+    height: 75px;
+    position: absolute;
+    width: 75px;
+}

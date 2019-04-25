@@ -1,0 +1,46 @@
+<!--
+Laan Rose
+CSC 337
+Final Project
+Checkers
+
+This file is the main html page for the final project ('Checkers'). It displays
+a checkers board and a div on the right which contains save/load buttons, a score display,
+and some instructions.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSC 337 Final Project</title>
+		<meta charset="utf-8" />
+        <link href="final.css" type="text/css" rel="stylesheet">
+        <script src="final.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <h1>CSC 337 Final Project</h1>
+        <div id="contentdiv">
+            <div id="boarddiv">
+            </div>
+            <div id="infodiv">
+                <div id="scorediv">
+                    <p id="scorelbl">Score</p>
+                    <div id="innerscorediv">
+                        <p id="redscorelbl" class="scorelbl">1000</p>
+                        <p id="blackscorelbl" class="scorelbl">1000</p>
+                    </div>
+                </div>
+                <div id="restartdiv">
+                    <button id="restartbtn">Restart!</button>
+                </div>
+                <div id="iodiv">
+                    <button id="savebtn">Save</button>
+                    <button id="loadbtn">Load</button>
+                </div>
+                <div id="instrdiv">
+                    <p id="instrlbl1">Instructions</p>
+                    <p id="instrlbl2">Move your pieces (black) by clicking on a piece and then clicking on a destination.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
